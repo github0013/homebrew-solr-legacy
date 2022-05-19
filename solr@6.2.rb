@@ -5,8 +5,6 @@ class SolrAT62 < Formula
   mirror "https://archive.apache.org/dist/lucene/solr/6.2.1/solr-6.2.1.tgz"
   sha256 "344cb317ab42978dcc66944dd8cfbd5721e27e1c64919308082b0623a310b607"
 
-  bottle :unneeded
-
   depends_on "openjdk"
 
   skip_clean "example/logs"
