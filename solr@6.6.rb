@@ -5,8 +5,6 @@ class SolrAT66 < Formula
   mirror "https://archive.apache.org/dist/lucene/solr/6.6.5/solr-6.6.5.tgz"
   sha256 "fa65e922bc32d36ef65bee866095da563aa5ddd7e953798c06b6494572d51729"
 
-  bottle :unneeded
-
   keg_only :versioned_formula
 
   depends_on "openjdk"
